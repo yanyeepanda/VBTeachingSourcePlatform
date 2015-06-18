@@ -1,0 +1,261 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background:url(img/bg.png);
+}
+img {
+	border:0px;
+} 
+#head{
+	width:960px;
+	height:130px;
+	margin:0 auto;
+	background:url(img/headbg.png);
+}
+#body{
+	width:960px;
+	height:740px;
+	margin:0 auto;	
+}
+#foot{
+	width:960px;
+	height:50px;
+	margin:0 auto;
+}
+#logo{
+	width:200px;
+	height:130px;
+	margin-left:7px;
+	float:left;
+}
+#login{
+	width:150px;
+	height:40px;
+	margin:15px 15px 32px 0;
+	float:right;
+}
+#LoginForm {
+	display: none;
+	background: url(img/loginbg.png);
+	width:200px;
+	height:180px;
+	padding:30px 25px 25px 25px;
+	position:relative;
+	left:-85px;
+	top:-3px;
+	z-index:20;
+}
+#LoginForm label{
+	font:15px "华文细黑";
+	margin:2px 2px 2px 2px;
+}
+#LoginForm .inputText{
+	height:26px;
+	width:200px;
+	margin-top:10px;
+	margin-bottom:5px;
+	border:none;
+	background: rgba(245,253,250,.9) url(img/inputbg.png) repeat-x top left;
+	border-radius:6px;
+	-webkit-bordert-radius:6px;
+	-moz-border-radius:6px;
+	-ms-border-radius:6px;
+}
+#LoginForm .inputText:focus{
+	background:#FFF;
+}
+#LoginForm .inputButton{
+	margin:20px 0 0 70px;
+}
+#nav{
+	width:730px;
+	height:40px;
+	float:left;
+}
+ul#mainlist{
+	list-style:none;
+}
+ul#mainlist li{
+	float:left;
+	padding:0 5px 0 5px;
+	border-right:dotted 1px #666;
+}
+ul#mainlist li a{
+	color:#333;
+	font:bold 18px "华文细黑" ; 
+}
+ul#sub1{
+	position:absolute;
+	left:482px;
+	top:132px;
+	z-index:19;
+	display:none;
+}
+ul#sub2{
+	position:absolute;
+	width:90px;
+	left:650px;
+	top:132px;
+	z-index:19;
+	display:none;
+}
+ul.sublist{
+	list-style:none;
+	width:105px;
+	background-image:url(img/sublbg.png);
+	padding:0 0 5px 10px;
+	border-bottom-right-radius:8px;
+	-webkit-border-bottom-right-radius:8px;
+	-moz-border-bottom-right-radius:8px;
+	-ms-border-bottom-right-radius:8px;
+	border-bottom-left-radius:8px;
+	-webkit-border-bottom-left-radius:8px;
+	-moz-border-bottom-left-radius:8px;
+	-ms-border-bottom-left-radius:8px;
+}
+ul#mainlist li ul.sublist li{
+	margin:5px 10px 5px 0;
+	border-bottom:dotted 1px #666;
+}
+ul#mainlist li ul.sublist li a{
+	text-decoration:none;
+	color:#333;
+	font:16px "华文细黑";
+}
+
+#content1{
+	width:100%;
+	height:370px;
+	margin-top:15px;
+}
+#album{
+    background: url(img/slider.png) no-repeat;
+    width:600px;
+    height:337px;
+    margin:0 auto;
+	float:left;
+    padding-top:23px;
+}
+#overview{
+	background-image:url(img/jjbg.png);
+	width:320px;
+	height:310px;
+	float:right;
+	padding:30px 20px 20px 20px;
+}
+
+#content2{
+	width:100%;
+	height:360px;
+}
+#left-bar{
+	width:185px;
+	height:355px;
+	float:left;
+}
+.btn{
+	width:175px;
+	height:70px;
+	margin:7px 0 8px 7px;
+	background:rgb(235,243,240) url(img/btm1.png) repeat-x 0 50%;
+	float:left;
+	border-radius:12px;
+	-webkit-bordert-radius:12px;
+	-moz-border-radius:12px;
+	-ms-border-radius:12px;
+	box-shadow:2px 2px 4px rgba(0,0,0,.3);
+	-webkit-box-shadow:2px 2px 4px rgba(0,0,0,.3);
+	-moz-box-shadow:2px 2px 4px rgba(0,0,0,.3);
+	-ms-box-shadow:2px 2px 4px rgba(0,0,0,.3);
+}
+#teacher{
+	width:220px;
+	height:335px;
+	float:right;
+	margin:5px 5px 0 0;
+	padding:5px 10px 5px 10px;
+	background:rgba(255,255,255,.7);
+	border-radius:12px;
+	-webkit-bordert-radius:12px;
+	-moz-border-radius:12px;
+	-ms-border-radius:12px;
+	box-shadow:2px 2px 4px rgba(0,0,0,.3);
+	-webkit-box-shadow:2px 2px 4px rgba(0,0,0,.3);
+	-moz-box-shadow:2px 2px 4px rgba(0,0,0,.3);
+	-ms-box-shadow:2px 2px 4px rgba(0,0,0,.3);
+}
+#teacher p{
+	font:15px "华文细黑"
+}
+#resources{
+	width:475px;
+	height:325px;
+	float:right;
+	margin:5px 12px 0 0;
+	padding:10px 10px 10px 10px;
+	background:rgba(255,255,255,.7);
+	border-radius:12px;
+	-webkit-bordert-radius:12px;
+	-moz-border-radius:12px;
+	-ms-border-radius:12px;
+	box-shadow:2px 2px 4px rgba(0,0,0,.3);
+	-webkit-box-shadow:2px 2px 4px rgba(0,0,0,.3);
+	-moz-box-shadow:2px 2px 4px rgba(0,0,0,.3);
+	-ms-box-shadow:2px 2px 4px rgba(0,0,0,.3);
+}
+#ebook{
+	width:100%;
+	height:50%;
+	border-bottom: dotted 1px rgb(38,188,213);
+}
+#ebook ul li{
+	margin-top:2px;
+}
+#ebook ul li a{
+	color:#444;
+	font:14px "华文细黑";
+}
+#extra{
+	width:100%;
+	height:50%;
+}
+.menu{
+	width:25%;
+	height:690px;
+	float:left;
+	margin:35px 10px 0 20px;
+	background:rgba(255,255,255,.7);
+	border-top-left-radius:14px;
+	-webkit-border-top-left-radius:14px;
+	-moz-border-top-left-radius:14px;
+	-ms-border-top-left-radius:14px;
+	border-bottom-left-radius:14px;
+	-webkit-border-bottom-left-radius:14px;
+	-moz-border-bottom-left-radius:14px;
+	-ms-border-bottom-left-radius:14px;
+	box-shadow:2px 2px 4px rgba(0,0,0,.3);
+}
+.title{
+	width:65%;
+	height:170px;
+	margin:35px 20px 0 10px;
+	float:left;
+	background:rgba(255,255,255,.7);
+	border-top-right-radius:14px;
+	-webkit-border-top-right-radius:14px;
+	-moz-border-top-right-radius:14px;
+	-ms-border-top-right-radius:14px;
+	box-shadow:2px 2px 4px rgba(0,0,0,.3);
+}
+.content{
+	width:65%;
+	height:500px;
+	margin:20px 20px 0 10px;
+	float:left;
+	background:rgba(255,255,255,.7);
+	border-bottom-right-radius:14px;
+	-webkit-border-bottom-right-radius:14px;
+	-moz-border-bottom-right-radius:14px;
+	-ms-border-bottom-right-radius:14px;
+	box-shadow:2px 2px 4px rgba(0,0,0,.3);
+}
